@@ -1,0 +1,91 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background: black; 
+  color: white;
+  padding: 20px; 
+  border-radius: 10px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.about p {
+  font-size: 20px;
+  text-align: left;
+}
+
+.about div input {
+  width: 450px;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+.about div button {
+  background: #f53f71;
+  color: white;
+  font-size: 17px;
+}
+
+.about .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.about .img span {
+  font-size: 15px;
+  margin-left: 40px;
+  color: rgb(193, 190, 190);
+}
+
+.more {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 100px;
+}
+
+.more .learn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.more .shop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.recipes {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 90px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: inside;
+}
+
+ul > li {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.recipes {
+  width: 30%;
+}
